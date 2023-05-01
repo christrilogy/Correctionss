@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    ifstream inputFile("purchase_data.txt");
+    ifstream inputFile("invoice.txt");
 
     if (!inputFile.is_open()) {
         cout << "Error opening file." << endl;
