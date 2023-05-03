@@ -11,9 +11,6 @@ double multi(double a, double b, double c, double d = 1.0) {
 
 int main() {
     double x, y, z, w;
-    cout << "Enter three numbers to multiply: ";
-    cin >> x >> y >> z;
-    cout << "The product of " << x << ", " << y << ", and " << z << " is " << multi(x, y, z) << endl;
 
     cout << "Enter four numbers to multiply: ";
     cin >> x >> y >> z >> w;
